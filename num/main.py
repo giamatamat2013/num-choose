@@ -1,16 +1,18 @@
 import time
 
-num = input ("Enter a number: ")
+num = int(input ("Enter a number: "))
 
-if num == "42":
-    print ("This is my favorite number! And the answer to the Ultimate Question of Life, The Universe, and Everything.")
-elif num == "67":
+if num == 42:
+    print ("This is Itamar's favorite number! And the answer to the Ultimate Question of Life, The Universe, and Everything.")
+elif num == 67:
     print ("This is a bannd trend.")
     time.sleep(1)
     exit
-elif num <= "0":
+elif num < 0:
     print ("This is negative number")
-elif num == "23":
+elif num == 23:
     print ("This is amit's favorite number")
+elif num == 0:
+    print ("This is Eitan's favorite number")
 else:
     print ("This is YOUR favorite number")
