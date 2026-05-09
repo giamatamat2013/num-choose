@@ -5,4 +5,4 @@ if x == "42":
 elif x == "67":
     print ("This is a bad trend.")
 else:
-    print ("This is YOUR favorite number, I guess.")
+    print ("This is YOUR favorite number")
