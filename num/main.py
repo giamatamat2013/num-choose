@@ -28,6 +28,6 @@ elif num == 23:
 elif num == 0:
     print ("This is Eitan's favorite number")
 elif num == 2013:
-    print ("How creative, did you copy from the title?")
+    print ("What a creativity, did you copy from the title?")
 else:
     print ("This is YOUR favorite number")
