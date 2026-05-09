@@ -5,9 +5,8 @@ num = input ("Enter a number: ")
 if num == "42":
     print ("This is my favorite number! And the answer to the Ultimate Question of Life, The Universe, and Everything.")
 elif num == "67":
-    print ("This is a bad trend.")
-    print ("We gonna kick you out.")
-    time.sleep(5)
+    print ("This is a bannd trend.")
+    time.sleep(3)
     exit
 elif num >= "1000000":
     print ("This is a BIG number")
