@@ -1,5 +1,18 @@
 import time
-
+logo = r"""
+        _                       _                         _    
+  __ _(_) __ _ _ __ ___   __ _| |_ __ _ _ __ ___   __ _| |_ 
+ / _` | |/ _` | '_ ` _ \ / _` | __/ _` | '_ ` _ \ / _` | __| 
+| (_| | | (_| | | | | | | (_| | || (_| | | | | | | (_| | |_  
+ \__, |_|\__,_|_| |_| |_|\__,_|\__\__,_|_| |_| |_|\__,_|\__| 
+ |___/                        
+   ____   ___  _  _____ 
+ |___ \ / _ \/ | |___ / 
+   __) | | | | |   |_ \ 
+  / __/| |_| | |  ___) |
+ |_____|\___/|_| |____/                                
+"""
+print(logo)
 num = int(input ("Enter a number: "))
 
 if num == 42:
@@ -14,5 +27,7 @@ elif num == 23:
     print ("This is amit's favorite number")
 elif num == 0:
     print ("This is Eitan's favorite number")
+elif num == 2013:
+    print ("How creative, did you copy from the title?")
 else:
     print ("This is YOUR favorite number")
