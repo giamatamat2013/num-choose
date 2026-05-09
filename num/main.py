@@ -11,6 +11,6 @@ elif num == "67":
 elif num <= "0":
     print ("This is negative number")
 elif num == "23":
-    print ("This is amit favorite number")
+    print ("This is amit's favorite number")
 else:
     print ("This is YOUR favorite number")
