@@ -31,5 +31,7 @@ elif num == 2013:
     print ("What a creativity, did you copy from the title?")
 elif num == 6:
     print ("This is the most skipped number!")
+elif num == 12:
+    print ("This is the basis of the counting of Tatarism.")
 else:
     print ("This is YOUR favorite number")
