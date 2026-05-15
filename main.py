@@ -29,5 +29,7 @@ elif num == 0:
     print ("This is Eitan's favorite number")
 elif num == 2013:
     print ("What a creativity, did you copy from the title?")
+elif num == 6:
+    print ("This is the most skipped number!")
 else:
     print ("This is YOUR favorite number")
