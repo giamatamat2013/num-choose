@@ -43,5 +43,7 @@ elif num == 2019:
     print ("this is Omer birthday year")
 elif num == 3:
     print ("this is the closest full number to pi")
+elif num ==8:
+    print ("It's a rotated infinity symbol.")
 else:
     print ("This is YOUR favorite number")
