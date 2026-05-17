@@ -33,5 +33,9 @@ elif num == 6:
     print ("This is the most skipped number!")
 elif num == 12:
     print ("This is the basis of the counting of Tatarism.")
+elif num == 7:
+    print ("This is the most popular number in the world!")
+elif num == 365:
+    print ("This is the number of days in a year!")
 else:
     print ("This is YOUR favorite number")
