@@ -45,5 +45,12 @@ elif num == 3:
     print ("this is the closest full number to pi")
 elif num ==8:
     print ("It's a rotated infinity symbol.")
+elif num ==123:
+    print (" you really suck at choosing passwords ")
+elif num == 404:
+    print ("page not found")
+    time.sleep(5)
+elif num == 69:
+    print ("This number stays the same even if you rotate it 180 degrees.")
 else:
     print ("This is YOUR favorite number")
