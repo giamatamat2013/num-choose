@@ -37,5 +37,11 @@ elif num == 7:
     print ("This is the most popular number in the world!")
 elif num == 365:
     print ("This is the number of days in a year!")
+elif num == 10:
+    print ("This is Carmel favorite number!")
+elif num == 2019:
+    print ("this is Omer birthday year")
+elif num == 3:
+    print ("this is the closest full number to pi")
 else:
     print ("This is YOUR favorite number")
