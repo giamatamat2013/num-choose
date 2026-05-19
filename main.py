@@ -25,11 +25,11 @@ def num_choose():
         time.sleep(1)
         exit
     elif num < 0:
-        print ("This is negative number")
+        print ("This is negative number.")
     elif num == 23:
-        print ("This is amit's favorite number")
+        print ("This is amit's favorite number!")
     elif num == 0:
-        print ("This is Eitan's favorite number")
+        print ("This is Eitan's favorite number!")
     elif num == 2013:
         print ("What a creativity, did you copy from the title?")
     elif num == 6:
@@ -43,24 +43,26 @@ def num_choose():
     elif num == 10:
         print ("This is Carmel's favorite number!")
     elif num == 2019:
-        print ("This is Omer's birthday year")
+        print ("This is Omer's birthday year!")
     elif num == 3:
-        print ("This is the closest full number to pi")
+        print ("This is the closest full number to pi.")
     elif num == 3.14: 
-        print ("This is tow numbers after the dot of pi")
+        print ("This is two numbers after the dot of pi.")
     elif num ==8:
         print ("It's a rotated infinity symbol.")
     elif num == 123 or num == 1234 or num == 12345 or num == 123456 or num == 1234567 or num == 12345678 or num == 123456789 or num == 1234567890:
-        print ("You really suck at choosing passwords ")
+        print ("You really suck at choosing passwords!")
     elif num == 404:
         print ("page not found")
         time.sleep(5)
     elif num == 69 or num == 96:
         print ("This number stays the same even if you rotate it 180 degrees.")
     elif num == 1:
-        print ("This is the first natural number")
+        print ("This is the first natural number.")
+    elif num > 999999999999:
+        print ("This number is too large for me to understand, try a smaller one.")
     else:
-        print ("This is YOUR favorite number")
+        print ("This is YOUR favorite number!")
 
 
 while True:
