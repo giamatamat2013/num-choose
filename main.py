@@ -65,6 +65,8 @@ def num_choose():
         print ("This is not a number, try again.")
     elif num > "999999999999":
         print ("This number is too large for me to understand, try a smaller one.")
+    elif num == "999999999998":
+        print ("Are you kidding me?")
     else:
         print ("This is YOUR favorite number!")
 
