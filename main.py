@@ -50,7 +50,9 @@ elif num ==123:
 elif num == 404:
     print ("page not found")
     time.sleep(5)
-elif num == 69:
+elif num == 69 or num == 96:
     print ("This number stays the same even if you rotate it 180 degrees.")
+elif num == 1:
+    print ("This is the first natural number")
 else:
     print ("This is YOUR favorite number")
