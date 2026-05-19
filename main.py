@@ -41,9 +41,9 @@ while True:
     elif num == 365:
         print ("This is the number of days in a year!")
     elif num == 10:
-        print ("This is Carmel favorite number!")
+        print ("This is Carmel's favorite number!")
     elif num == 2019:
-        print ("this is Omer birthday year")
+        print ("this is Omer's birthday year")
     elif num == 3:
         print ("this is the closest full number to pi")
     elif num ==8:
