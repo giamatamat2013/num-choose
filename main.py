@@ -46,6 +46,8 @@ def num_choose():
         print ("This is Omer's birthday year")
     elif num == 3:
         print ("This is the closest full number to pi")
+    elif num == 3.14: 
+        print ("This is tow numbers after the dot of pi")
     elif num ==8:
         print ("It's a rotated infinity symbol.")
     elif num == 123 or num == 1234 or num == 12345 or num == 123456 or num == 1234567 or num == 12345678 or num == 123456789 or num == 1234567890:
