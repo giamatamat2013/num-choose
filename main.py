@@ -28,7 +28,7 @@ def num_choose():
         print ("This is negative number.")
     elif num == "23":
         print ("This is amit's favorite number!")
-    elif num == "0":
+    elif num == "0" or num == "∞":
         print ("This is Eitan's favorite number!")
     elif num == "2013":
         print ("What a creativity, did you copy from the title?")
