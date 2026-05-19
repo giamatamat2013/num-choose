@@ -16,7 +16,7 @@ print(logo)
 
 def num_choose():
     
-    num = int(input ("Enter a number: "))
+    num = input ("Enter a number: ")
     
     if num == 42:
         print ("This is Itamar's favorite number! And the answer to the Ultimate Question of Life, The Universe, and Everything.")
