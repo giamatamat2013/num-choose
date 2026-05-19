@@ -24,6 +24,8 @@ def num_choose():
         print ("This is a bannd trend.")
         time.sleep(1)
         exit
+    elif num == "":
+        print ("You didn't enter anything, try again.")
     elif num < "0":
         print ("This is negative number.")
     elif num == "23":
