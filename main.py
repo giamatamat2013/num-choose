@@ -59,11 +59,12 @@ def num_choose():
         print ("This number stays the same even if you rotate it 180 degrees.")
     elif num == "1":
         print ("This is the first natural number.")
+    elif str(num).isalpha():
+        print ("This is not a number, try again.")
     elif num > "999999999999":
         print ("This number is too large for me to understand, try a smaller one.")
     else:
         print ("This is YOUR favorite number!")
-
 
 while True:
     num_choose()
