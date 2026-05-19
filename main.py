@@ -14,7 +14,7 @@ logo = r"""
 """
 print(logo)
 
-while True:
+def num_choose():
     
     num = int(input ("Enter a number: "))
     
@@ -59,3 +59,7 @@ while True:
         print ("This is the first natural number")
     else:
         print ("This is YOUR favorite number")
+
+
+while True:
+    num_choose()
