@@ -63,6 +63,8 @@ def num_choose():
         print ("This is the first natural number.")
     elif str(num).isalpha():
         print ("This is not a number, try again.")
+    elif num == "2":
+        print ("This is the only even prime number.")
     elif num >= "999999999999":
         print ("This number is too large for me to understand, try a smaller one.")
     elif num == "999999999998":
