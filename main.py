@@ -20,10 +20,10 @@ def num_choose():
     
     if num == "42":
         print ("This is Itamar's favorite number! And the answer to the Ultimate Question of Life, The Universe, and Everything.")
-    elif num == "67":
-        print ("This is a bannd trend.")
+    elif num == "67" or num == "41":
+        print ("This is a banned trend.")
         time.sleep(1)
-        exit
+        exit()
     elif num == "":
         print ("You didn't enter anything, try again.")
     elif num < "0":
@@ -63,7 +63,7 @@ def num_choose():
         print ("This is the first natural number.")
     elif str(num).isalpha():
         print ("This is not a number, try again.")
-    elif num > "999999999999":
+    elif num >= "999999999999":
         print ("This number is too large for me to understand, try a smaller one.")
     elif num == "999999999998":
         print ("Are you kidding me?")
