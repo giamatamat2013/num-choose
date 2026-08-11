@@ -14,9 +14,12 @@ logo = r"""
 """
 print(logo)
 
+num_history = []
+
 def num_choose():
     
     num = input ("Enter a number: ")
+    num_history.append(num)
 
     print(f"Your num is: {num}")
     if num == "42":
@@ -68,6 +71,10 @@ def num_choose():
         print ("This is not a number, try again.")
     elif num == "2":
         print ("This is the only even prime number.")
+    elif num == "num history":
+        num_history.remove("num history")
+        for x in num_history:
+            print (x)
     elif num >= "999999999999":
         print ("This number is too large for me to understand, try a smaller one.")
     elif num == "999999999998":
