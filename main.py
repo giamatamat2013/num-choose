@@ -68,6 +68,8 @@ def num_choose():
     elif num == "404":
         print ("Page not found")
         time.sleep(5)
+    elif num == "040":
+        print("Page yes found")
     elif num == "69" or num == "96":
         print ("This number stays the same even if you rotate it 180 degrees.")
     elif num == "1":
