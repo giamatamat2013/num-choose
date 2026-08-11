@@ -1,5 +1,6 @@
 import time
 import math
+from pathlib import Path
 logo = r"""
         _                       _                         _    
   __ _(_) __ _ _ __ ___   __ _| |_ __ _ _ __ ___   __ _| |_ 
@@ -15,18 +16,31 @@ logo = r"""
 """
 print(logo)
 
+data_dir = Path(r"C:\Users\Giamat13\AppData\Roaming\numchoose") #אומר שהנתיב הזה הוא הDATA של numchoose
+data_dir.mkdir(exist_ok=True) #יוצר את תקיית הdata של numchoose
+banned_file_path = data_dir / "banned" #אומר איפה הקובץ שאם קיים זה אומר שאני ban
+
+num = None
+if banned_file_path.exists(): #אם קובץ הבאן קיים
+    while num != "42": #כל עוד המספר הוא לא 42 לא ממשיך
+        print("You are banned from using this program.") #כתוב שאני באן
+        num = input("") #נותן הזדמנות לכתוב מספר
+        if num == "42": #אם מספר = 42 (אם לא, מתחיל מחדל את הלולאה ושואל למספר שוב)
+            print("You are unbanned.") #אתה לא בבאן, כיתוב
+            banned_file_path.unlink(missing_ok=True) #מחיקת הקובץ שאומר שאני באן
+
 num_history = []
 
-def num_choose():
-    
+while True:
     num = input ("Enter a number: ")
     num_history.append(num)
 
     print(f"Your num is: {num}")
     if num == "42":
         print ("This is Itamar's favorite number! And the answer to the Ultimate Question of Life, The Universe, and Everything.")
-    elif num == "67" or num == "41":
+    elif num == str(66+1) or num == str(40+1): # שיניתי פה שבמקום שיכתוב את המספרים  המקוללים יכותב רק40+1 ו66+1 כדי לא לקלל את הקוד
         print ("This is a banned trend.")
+        banned_file_path.touch() # יוצר קובץ שלמעלה אם מזהה שקיים נותן באן
         time.sleep(1)
         exit()
     elif num == "":
@@ -90,6 +104,3 @@ def num_choose():
         print ("This is not a number, try again.")
     else:
         print ("This is YOUR favorite number!")
-
-while True:
-    num_choose()
