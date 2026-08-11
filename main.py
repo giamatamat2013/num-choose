@@ -74,8 +74,6 @@ def num_choose():
         print ("This number stays the same even if you rotate it 180 degrees.")
     elif num == "1":
         print ("This is the first natural number.")
-    elif str(num).isalpha():
-        print ("This is not a number, try again.")
     elif num == "2":
         print ("This is the only even prime number.")
     elif num == "num history":
@@ -88,6 +86,8 @@ def num_choose():
         print ("Are you kidding me?")
     elif num == "37" or num == "39":
         print("37 ≠ 39")
+    elif not str(num).isnumeric():
+        print ("This is not a number, try again.")
     else:
         print ("This is YOUR favorite number!")
 
