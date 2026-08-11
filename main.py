@@ -1,4 +1,5 @@
 import time
+import math
 logo = r"""
         _                       _                         _    
   __ _(_) __ _ _ __ ___   __ _| |_ __ _ _ __ ___   __ _| |_ 
@@ -54,7 +55,7 @@ def num_choose():
         print ("This is Omer's birthday year!")
     elif num == "3":
         print ("This is the closest full number to pi.")
-    elif num == "3.14": 
+    elif num == str(round(math.pi, 2)): 
         print ("This is two numbers after the dot of pi.")
     elif num =="8":
         print ("It's a rotated infinity symbol.")
