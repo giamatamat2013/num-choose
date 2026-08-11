@@ -47,6 +47,8 @@ def num_choose():
         print ("This is the basis of the counting of Tatarism.")
     elif num == "520":
         print("This is a bad game!")
+    elif num == "2048":
+        print ("This is a good game!")
     elif num == "7":
         print ("This is the most popular number in the world!")
     elif num == "365":
