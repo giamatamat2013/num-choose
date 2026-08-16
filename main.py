@@ -16,7 +16,7 @@ logo = r"""
 """
 print(logo)
 
-data_dir = Path(r"C:\Users\Giamat13\AppData\Roaming\numchoose") #אומר שהנתיב הזה הוא הDATA של numchoose
+data_dir = Path(r"C:\Users\Giamat13\AppData\Roaming\giamatamat2013") #אומר שהנתיב הזה הוא הDATA של numchoose
 data_dir.mkdir(exist_ok=True) #יוצר את תקיית הdata של numchoose
 banned_file_path = data_dir / "banned" #אומר איפה הקובץ שאם קיים זה אומר שאני ban
 
