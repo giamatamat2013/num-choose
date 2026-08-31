@@ -17,6 +17,7 @@ logo = r"""
 print(logo)
 
 data_dir = Path.home() / "AppData" / "Roaming" / "giamatamat2013"
+data_dir.mkdir(parents=True, exist_ok=True)
 banned_file_path = data_dir / "banned" #אומר איפה הקובץ שאם קיים זה אומר שאני ban
 
 num = None
@@ -39,7 +40,7 @@ while True:
         print ("This is Itamar's favorite number! And the answer to the Ultimate Question of Life, The Universe, and Everything.")
     elif num == str(66+1) or num == str(40+1): # שיניתי פה שבמקום שיכתוב את המספרים  המקוללים יכותב רק40+1 ו66+1 כדי לא לקלל את הקוד
         print ("This is a banned trend.")
-        banned_file_path.touch() # יוצר קובץ שלמעלה אם מזהה שקיים נותן באן
+        banned_file_path.touch(exist_ok=True) # יוצר קובץ שלמעלה אם מזהה שקיים נותן באן
         time.sleep(1)
         exit()
     elif num == "":
