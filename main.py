@@ -68,6 +68,8 @@ while True:
     elif num == "365":
         print ("This is the number of days in a year!")
     elif num == "10":
+        print ("This is the number of fingers on two hands!")
+    elif num == "11":
         print ("This is Carmel's favorite number!")
     elif num == "2019":
         print ("This is Omer's birthday year!")
